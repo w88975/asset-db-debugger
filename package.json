@@ -7,7 +7,7 @@
         "main": "editor/main.js",
         "menus": [
             {
-                "path": "Developer/AssetDB Debugger Plugin",
+                "path": "Developer/AssetDB Debugger",
                 "message": "asset-db:debugger:open"
             }
         ],
