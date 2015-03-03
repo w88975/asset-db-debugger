@@ -49,15 +49,23 @@ table {
 
     .key {
         color: #aaa
-        user-select: initial
+        -webkit-user-select: initial
         cursor: text
+        &::selection {
+            background-color: #09f - 20%
+        }
     }
 
     .value {
         color: #d60
-        user-select: initial
+        -webkit-user-select: initial
         cursor: text
+        &::selection {
+            background-color: #09f - 20%
+        }
     }
+
+
 }
 
 table, th, td {
